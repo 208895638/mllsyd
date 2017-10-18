@@ -56,7 +56,7 @@ $(function(){
 				var i = $(this).index();
 				$(this).find("a").addClass("on").parent().siblings().find("a").removeClass("on");
 				$(".container .news").eq(i).removeClass("hide").siblings().addClass("hide");
-			})
+			});
 			
 		},
 		render:function(){
