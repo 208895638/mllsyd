@@ -5,8 +5,13 @@ body,html{
 }
 .mLNav{
     width: 100%;
-    height: 0.64rem;
+    height: 0.84rem;
     background: url(../images/nav_bg.png) no-repeat center;
+    background-size:cover ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
     .box{
         width: 100%;
         height: 0.64rem;
@@ -16,7 +21,7 @@ body,html{
             margin:0 auto;
             .logo{
                 width:1.64rem ;
-                height: 0.64rem;
+                height: 0.84rem;
                 position: relative;
                 left: 0.26rem;
                 img{
@@ -26,9 +31,39 @@ body,html{
                     width:1.64rem ;
                 }
             }
+            .back{
+                width:1.4rem ;
+                height: 0.84rem; 
+                padding-left:0.24rem ;
+                
+                color:#2d9476 ;
+                a{
+                    color:#2d9476 ;
+                    display: block;
+                    font: 0.3rem/0.84rem "微软雅黑";
+                    width: 100%;
+                    height: 100%;
+                    span{
+                        width: 0;
+                        height: 0;
+                        border-width: 0.14rem;
+                        margin-right: 0.12rem;
+                        border-style: solid;
+                        display: inline-block;
+                        vertical-align: middle;
+                        border-color: transparent #2d9476 transparent transparent;  
+                    }
+                    em{
+                        display: inline-block; 
+                        height: 0.84rem;
+                        font: 0.3rem/0.84rem "微软雅黑";
+                    }
+                }
+                
+            }
             .hbb{
                 width: 1.28rem;
-                height: 0.64rem;
+                height: 0.84rem;
                 position: relative;
                 h3{
                     position: absolute;
@@ -48,34 +83,93 @@ body,html{
                     }
                 }
             }
-            .nav{
-                position: absolute;
-                top: 0.64rem;
-                z-index: 99;
-                width: 1.2rem;
-                li{
-                    a{
+        }
+    }
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    z-index: 999;
+    width: 100%;
+    .box{
+        width: 100%;
+        height: 0.84rem;
+        margin:0 auto;
+        background: #000;
+        .navs{
+            width: 100%;
+            margin:0 auto;
+            .logo{
+                width:1.64rem ;
+                height: 0.84rem;
+                position: relative;
+                left: 0.26rem;
+                img{
+                    position: absolute;
+                    top: 0.25rem;
+                    left: 0;
+                    width:1.64rem ;
+                }
+            }
+            .hbbs{
+                width: 1.28rem;
+                height: 0.84rem;
+                position: relative;
+                h3{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 0.36rem;
+                    height: 0.3rem;
+                    span{
+                        width: 0.36rem;
+                        height: 0.04rem;
                         display: block;
-                        width: 1.2rem;
-                        text-align: center;
-                        font:0.27rem/0.8rem "微软雅黑";
-                        color: #ffffff;
-                        background: #2a292a;
+                        background: #fff;
+                        margin:0.04rem 0;
                     }
-                    a:hover{
-                        background: #7dc1bb;
-                    }
-                    .on{
-                        background: #7dc1bb;
+                    img{
+                        height: 0.36rem;
                     }
                 }
+            }
+        }
+    }
+    ul{
+        width: 100%;
+        height: 100%;
+        background: rgba(000,000,000,0.6);
+        li{
+            width: 100%;
+            a{
+                display: block;
+                width:calc(100% - 0.04rem);
+                width:-moz-calc(100% - 0.04rem);
+                width:-webkit-calc(100% - 0.04rem);
+                text-align: center;
+                font:0.27rem/0.8rem "微软雅黑";
+                color: #ffffff;
+//              background: #2a292a;
+                border: 0.02rem solid transparent;
+            }
+            a:hover{
+                border: 0.02rem solid #5ac1b8;
+            }
+            .on{
+                border: 0.02rem solid #5ac1b8;
             }
         }
     }
 }
 .mBanner{
     width: 100%;
-    height: 7.88rem;
+    height: 8.36rem;
+    margin-top: 0.84rem;
     background: url(../images/banner_02.jpg) no-repeat center;
     background-size:cover ;
     .downloads{
@@ -108,7 +202,7 @@ body,html{
                     .ios{
                         background: url(../images/appdown_05.png) no-repeat center;
                         background-size:cover ;
-                        margin-bottom:0px;
+                        margin-bottom:0.18rem;
                     }
                 }
             }
@@ -145,43 +239,43 @@ body,html{
 }
 .strategy{
     width: 100%;
-    height: 5.86rem;
+    height: 8.22rem;
     background: url(../images/fir_bg_03.jpg) no-repeat center;
     background-size:cover ;
     .box{
         width: 100%;
-        padding-top:0.25rem ;
+        padding-top:0.6rem ;
         h2{
             width: 100%;
             img{
-                height:0.25rem;
+                height:0.38rem;
                 margin:0 auto;
             }
         }
         .container{
             width: 94%;
-            height: 4.57rem;
             margin:0 auto;
-            background: url(../images/fir_kuang_15.png) no-repeat center;
-            background-size:cover ;
-            padding-top: 0.74rem;
+//          background: url(../images/fir_kuang_15.png) no-repeat center;
+//          background-size:cover ;
+            padding-top: 0.32rem;
             .newsL{
-                width: 75%;
-                height: 1.85rem;
+                width: 100%;
+                height: 3.41rem;
                 position: relative;
                 margin:0 auto;
                 .swiper-container{
                     width: 100%;
-                    height: 1.85rem;
+                    height: 3.41rem;
                     .swiper-wrapper{
                         width: 100%;
-                        height: 1.85rem;
+                        height: 3.41rem;
                         .swiper-slide{
                             width: 100%;
-                            height: 1.85rem;
+                            height: 3.41rem;
                             img{
-                                width: 100%;
-                                height: 1.85rem;
+                                width: 5.74rem;
+                                height: 3.41rem;
+                                margin:0 auto;
                             }
                         }
                     }
@@ -200,68 +294,84 @@ body,html{
                     z-index: 99;
                     font-size: 0;
                     span{
-                        width: 0.24rem;
-                        height: 0.24rem;
+                        width: 0.44rem;
+                        height: 0.06rem;
                         margin: 0 0.12rem;
                         vertical-align: top;
                         display: inline-block;
                         cursor: pointer;
-                        background: #8a8886;
-                        border-radius: 0.12rem;
+                        background: #5ac1b8;
                     }
                     .swiper-active-switch{
-                        background: #9d8a40;
+                        background: #115b55;
                     }
                 }
             }
             .newsR{
-                width: 75%;
+                width: 5.74rem;
                 margin:0 auto;
                 .newsNav{
-                    height: 0.73rem;
-                    
+                    height: 0.82rem;
                     ul{
+//                      width: 4.62rem;
+                        display: inline-block;
+                        height: 0.82rem;
+                        border-bottom: 0.04rem solid #73645c;
                         li{
                             a{
                                 display: block;
                                 color: #62666d;
-                                font: 0.23rem/0.73rem "微软雅黑";
-                                margin:0 0.12rem;
+                                font: 0.23rem/0.82rem "微软雅黑";
+                                width: 0.94rem;
+                                text-align: center;
+                                border-bottom:0.04rem solid transparent;
 //                              margin: 0 9px;
                             }
                             a:hover{
-                                color: #d3d1cd;
+                                border-bottom:0.04rem solid #ded3c8;
                             }
                             .on{
-                                color: #d3d1cd;
+                                border-bottom:0.04rem solid #ded3c8;
                             }
                         }
                     }
                     .more{
-                        height: 0.73rem;
+                        height: 0.88rem;
+                        width: 0.32rem;
+                        position: relative;
                         a{
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            margin:auto;
                             display: block;
-                            color: #dec856;
-                            font: 0.23rem/0.73rem "微软雅黑";
-                            padding:0 0.05rem;
+                            color: #19140d;
+                            font: 0.4rem/0.32rem "微软雅黑";
+                            width: 0.32rem;
+                            height: 0.32rem;
+                            background: #85807f;
+                            text-align: center;
                         }
                     }
                 }
                 .info{
+                    width: 100%;
+                    padding-top: 0.1rem;
                   .per{
+                      width: 100%;
+                      margin:0 auto;
                       li{
                           a{
                             display: block;
-                            padding-left: 0.3rem;
-                            font:0.24rem/0.58rem "微软雅黑";
-                            color: #9e923b;
+                            font:0.24rem/0.72rem "微软雅黑";
+                            color: #ded3c8;
                             span{
                                 width: 0.9rem;
                                 text-align: center;
                             }  
                             em{
                                 width: 2.5rem;
-                                color: #b1b8bd;
+                                color: #85807f;
                             }   
                             i{
                                 width: 0.7rem;
@@ -269,7 +379,7 @@ body,html{
                             }                         
                           }
                           a:hover{
-                              background: url(../images/fir_guangyun_20.png) no-repeat 0.08rem center;
+//                            background: url(../images/fir_guangyun_20.png) no-repeat 0.08rem center;
                           }
                       }
                   }  
@@ -280,27 +390,33 @@ body,html{
 }
 .introduce{
     width: 100%;
-    height: 5.54rem;
+    height: 5.82rem;
     background: url(../images/sec_bg_04.jpg) no-repeat center;
     background-size:cover ;
     .box{
         width: 100%;
-        height: 5.54rem;
+        height: 5.82rem;
         margin:0 auto;
         position: relative;
+        .swiper-pagination-progressbar{
+            background: #c8c37d;
+        }
         h2{
             width: 100%;
             img{
-                height: 0.24rem;
-                padding:0.12rem 0;
+                height: 0.36rem;
+                padding:0.34rem 0;
                 margin:0 auto;
             }
+        }
+        .content{
+            padding-top:0.2rem;
         }
         .xq{
             width:calc(100% - 0.5rem);
             width:-moz-calc(100% - 0.5rem);
             width:-webkit-calc(100% - 0.5rem);
-            padding-left: 0.5rem;
+            padding-left: 0.3rem;
             .per{
                 width: 100%;
                 height: 4.8rem;
@@ -311,7 +427,7 @@ body,html{
                     h3{
                         width: 3.66rem;
                         height: 0.59rem;
-                        text-align: center;
+                        text-align: left;
                         font-size: 0;
                         margin-bottom:0.16rem;
                         span,em,i{
@@ -336,8 +452,8 @@ body,html{
                         width: 100%;
                         height: 1.5rem;
                         font: 0.16rem/0.26rem "微软雅黑";
-                        color: #a9aeaf;
-                        margin-top: 0.7rem;
+                        color: #ded3c8;
+                        margin-top: 0.3rem;
                     }
                     .skill{
                         width: 100%;
@@ -452,12 +568,13 @@ body,html{
 }
 .game{
     width: 100%;
-    height: 5.47rem;
+    height: 7.05rem;
     background: url(../images/thr_bg_05.jpg) no-repeat center;
     background-size:cover ;
+    padding-top: 0.28rem;
     .box{
         width: 100%;
-        height: 5.47rem;
+        height: 100%;
         margin:0 auto;
         position: relative;
         text-align: center;
@@ -465,61 +582,43 @@ body,html{
             width: 100%;
             margin-bottom: 0.25rem;
             img{
-                height: 0.36rem;
+                height: 0.40rem;
                 margin:0 auto;
             }
         }
-        .games{
+        .gameCharac{
+            width: 100%;
             height: 4.6rem;
             margin:0 auto;
             display: inline-block;
-            li{
-                cursor: pointer;
-                h3{
-                    width: 0.59rem;
-                    height:2.92rem;
-                    background:rgba(17,89,83,0.6);
-                    padding-top: 1.26rem;
-                    span,em{
-                        display: block;
-                    }
-                    span{
-                        height: 88px;
-                        margin-bottom: 132px;
-                        font: 40px/88px "微软雅黑";
-                        color: #698c8b;
-                        text-align: center;
-                    }
-                    em{
-                        
-                        height: 2.93rem;
+            .charac{
+                width: 100%;
+                height: 100%;
+                .swiper-wrapper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-slide{
+                        width: 3.62rem;
+                        height: 4.92rem;
+                        margin:0 auto;
                         img{
-                            height: 2.93rem;
+                            width: 3.62rem;
+                            height: 4.92rem;
+                            margin:0 auto;
                         }
                     }
                 }
-                h4{
-                    position: relative;
-                    width: 3.1rem;
-                    height:4.18rem ;
-                    border: 0.01rem solid #3cbeb5;
-                    span{
-                        width: 3.1rem;
-                        height:4.18rem ;
-                        img{
-                            width: 100%;
-                        }
-                    }
-                    i{
-                        position: absolute;
-                        left:-0.41rem;
-                        top:-0.19rem;
-                        width: 3.1rem;
-                        height:4.18rem ;
-                        img{
-                            width: 1rem;
-                        }
-                    }
+            }
+            .characPage{
+                span{
+                    width: 0.73rem;
+                    height: 0.11rem;
+                    background: #115b55;
+                    border-radius:0 ;
+                    margin:0 0.12rem;
+                }
+                .swiper-pagination-bullet-active{
+                    background: #5ac1b8;
                 }
             }
         }
@@ -529,6 +628,7 @@ body,html{
 .newsBan{
     width: 100%;
     background: #082b28;
+    margin-top: 0.84rem;
     .ban{
         width: 100%;
         margin:0 auto;
@@ -609,7 +709,7 @@ body,html{
             .infoR{
                 width: 100%;
                 background: #ffffff;
-                padding:0.2rem 0  0 0;
+                margin:0 auto;
                 .comTitle{
                     font: 0.36rem/0.8rem "微软雅黑";
                     text-align: center;
@@ -617,6 +717,7 @@ body,html{
                 }
                 .title{
                     width: 100%;
+                    height: 1.1rem;
                     border-bottom: 0.02rem solid #CCCCCC;
                     h2{
                         width: 1.4rem;
@@ -625,12 +726,15 @@ body,html{
                         text-align: left;
                     }
                     ul{
+                        width: 100%;
                         li{
+                            width: 25%;
                             float: left;
                             a{
                                 display: block;
-                                font:0.2rem/0.34rem "微软雅黑";
+                                font:0.2rem/1.1rem "微软雅黑";
                                 color: #2d9376;
+                                text-align: center;
                                 margin:0 0.15rem;
                                 border-bottom: 0.02rem solid transparent;
                             }
@@ -668,17 +772,24 @@ body,html{
                             span{
                                 font: 0.29rem/0.59rem "微软雅黑";
                                 color: #57a991;
+                                width: 100%;
+                                text-align: center;
+                                display: block;
                             }
                             a{
                                 font:0.19rem/0.59rem "微软雅黑";
-                                color: #a3abaa;
+                                color: #9ee5ce;
                             }
                         }
                         .time{
-                            font: 0.15rem/0.41rem "微软雅黑";
+                            font: 0.15rem/0.6rem "微软雅黑";
                             color: #57a991;
                             text-align: left;
                             margin-bottom: 0.2rem;
+                            padding: 0.3rem 0;
+                            span{
+                                height: 0.6rem;
+                            }
                         }
                         .infos{
                             p{
@@ -697,66 +808,71 @@ body,html{
                                 color: #39605c;
                             }                            
                         }
-                        .news{
-                            height: 7rem;
-                            position: relative;
-                            .per{
-                                .par{
-                                    display: block;
-                                    font:0.24rem/0.64rem "微软雅黑";
-                                    color: #666666;
-                                    border-bottom: dashed 0.01rem #b8b8b8;
-                                    span{
-                                        width: 4rem;
-                                    }
-                                    em{
-                                        text-align: right;
-                                    }
-                                    .zlL{
-                                        width: 4.7rem;
-                                        h3{
-                                            width: 4.7rem;
-                                            font: 0.26rem/0.58rem "微软雅黑";
-                                            color: #57a991;
-                                            text-align: left;
+                        .groups{
+                            width: 100%;
+                            padding-bottom: 1.3rem;
+                            .news{
+                                min-height: 4rem;
+                                position: relative;
+                                .per{
+                                    .par{
+                                        display: block;
+                                        font:0.24rem/0.64rem "微软雅黑";
+                                        color: #666666;
+                                        border-bottom: dashed 0.01rem #b8b8b8;
+                                        padding-top: 0.38rem;
+                                        span{
+                                            width: 4rem;
                                         }
-                                        h4{
-                                            font:0.18rem/0.3rem "微软雅黑";
-                                            color: #999999;
-                                            max-height: 0.6rem;
+                                        em{
+                                            text-align: right;
+                                        }
+                                        .zlL{
+                                            width: 100%;
+                                            h3{
+                                                width: 100%;
+                                                font: 0.26rem/0.58rem "微软雅黑";
+                                                color: #57a991;
+                                                text-align: left;
+                                            }
+                                            h4{
+                                                font:0.18rem/0.3rem "微软雅黑";
+                                                color: #999999;
+                                                max-height: 0.6rem;
+                                                position: relative;
+                                                overflow: hidden;
+                                                margin-bottom: 0.14rem;
+                                            }
+                                            h4::after{
+                                                content: "..."; 
+                                                position: absolute; 
+                                                bottom: 0; 
+                                                right: 0;
+                                                line-height: 0.3rem;
+                                                padding-left: 0.3rem;
+                                                background: -webkit-linear-gradient(left, transparent, #fff 55%);
+                                                background: -o-linear-gradient(right, transparent, #fff 55%);
+                                                background: -moz-linear-gradient(right, transparent, #fff 55%);
+                                                background: linear-gradient(to right, transparent, #fff 55%);
+                                            }
+                                        }
+                                        .zlR{
+                                            width: 0.7rem;
                                             position: relative;
-                                            overflow: hidden;
-                                            margin-bottom: 0.14rem;
-                                        }
-                                        h4::after{
-                                            content: "..."; 
-                                            position: absolute; 
-                                            bottom: 0; 
-                                            right: 0;
-                                            line-height: 0.3rem;
-                                            padding-left: 0.3rem;
-                                            background: -webkit-linear-gradient(left, transparent, #fff 55%);
-                                            background: -o-linear-gradient(right, transparent, #fff 55%);
-                                            background: -moz-linear-gradient(right, transparent, #fff 55%);
-                                            background: linear-gradient(to right, transparent, #fff 55%);
+                                            height: 1.28rem;
+                                            img{
+                                                width: 0.34rem;
+                                                position: absolute;
+                                                top: 0;
+                                                bottom: 0;
+                                                right: 0;
+                                                margin: auto;
+                                            }
                                         }
                                     }
-                                    .zlR{
-                                        width: 0.7rem;
-                                        position: relative;
-                                        height: 1.28rem;
-                                        img{
-                                            width: 0.34rem;
-                                            position: absolute;
-                                            top: 0;
-                                            bottom: 0;
-                                            right: 0;
-                                            margin: auto;
-                                        }
+                                    .par:hover{
+                                        color: red;
                                     }
-                                }
-                                .par:hover{
-                                    color: red;
                                 }
                             }
                             .pages{
@@ -764,10 +880,21 @@ body,html{
                                 font-size: 0;
                                 height: 0.75rem;
                                 position: absolute;
-                                bottom: 0;
+                                bottom: 0.44rem;
                                 left: 0;
                                 right: 0;
                                 margin:auto;
+                                p{
+                                    a{
+                                        display: block;
+                                        font: 0.26rem/0.54rem "微软雅黑";
+                                        color: #666666;
+                                        width: 1.72rem;
+                                        border-radius: 0.27rem;
+                                        border:0.02rem solid #2d9476;
+                                        margin:0 auto;
+                                    }
+                                }
                                 li{
                                     display: inline-block;
                                     vertical-align: top;
@@ -805,6 +932,42 @@ body,html{
                     }
                 }
             }
+        }
+    }
+}
+.share{
+    .jiathis_style{
+        .jtico{
+            height: 0.6rem!important;
+            width: 0.6rem!important;
+            padding-left: 0!important;
+            margin:0 0.04rem;
+        }
+        .jtico_tsina{
+            background: url(../images/weibo_63.png) no-repeat left!important;
+            background-size:cover ;
+            height: 0.6rem!important;
+            width: 0.6rem!important;
+        }
+        .jtico_cqq{
+            background: url(../images/QQ_63.png) no-repeat left!important;
+            background-size:cover ;
+            height: 0.6rem!important;
+            width: 0.6rem!important;
+            margin:0 0.04rem;
+        }
+        .jtico_weixin{
+            background: url(../images/weixin_06.png) no-repeat left!important;
+            background-size:cover ;
+            height: 0.6rem!important;
+            width: 0.6rem!important;
+            margin:0 0.04rem;
+        }
+        .jiathis_txt{
+           line-height: 0.3rem!important; 
+           margin:0 0.04rem;
+           color: #fff;
+           font-size: 0.16rem;
         }
     }
 }

@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/common.css" />
-		<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	</head>
 	<body>
@@ -23,37 +23,47 @@
 							<span></span>
 							<span></span>
 						</h3>
-						<ul class="clearfix nav hide">
-							<li class="l">
-								<a href="index.html" class="on">
-									首页
-								</a>
-							</li>
-							<li class="l">
-								<a href="news.html">
-									消息
-								</a>
-							</li>
-							<li class="l">
-								<a href="news.html?id=1">
-									资料
-								</a>
-							</li>
-							<li class="l">
-								<a href="javascript:;">
-									特色
-								</a>
-							</li>
-							<li class="l">
-								<a href="javascript:;">
-									论坛
-								</a>
-							</li>
-						</ul>
 					</div>
-					
 				</div>
 			</div>
+		</div>
+		<div class="nav hide">
+			<div class="box">
+				<div class="navs clearfix">
+					<div class="hbbs r">
+						<h3>
+							<img src="images/cha_21.png" alt="魔龙猎手"/>
+						</h3>
+					</div>
+				</div>
+			</div>
+			<ul class="clearfix ">
+				<li class="l">
+					<a href="index.html" class="on">
+						官网首页
+					</a>
+				</li>
+				<li class="l">
+					<a href="news.html">
+						最新消息
+					</a>
+				</li>
+				<li class="l">
+					<a href="news.html?id=1">
+						游戏资料
+					</a>
+				</li>
+				<li class="l">
+					<a href="javascript:;">
+						游戏特色
+					</a>
+				</li>
+				<li class="l">
+					<a href="javascript:;">
+						论坛论坛
+					</a>
+				</li>
+			</ul>
 		</div>
 		<!--第一栏banner图-->
 		<div class="mBanner">
@@ -63,12 +73,12 @@
 						<ul class="dWBtn clearfix l">
 							<!--ios-->
 							<li class="">
-								<a href="javascript:;" class="android">									
+								<a href="javascript:;" class="ios">									
 								</a>
 							</li>
 							<!--android-->
 							<li class="">
-								<a href="javascript:;" class="ios">									
+								<a href="javascript:;" class="android">									
 								</a>
 							</li>
 						</ul>
@@ -125,7 +135,7 @@
 								</li>
 							</ul>
 							<h4 class="more r">
-								<a href="javascript:;">更多</a>
+								<a href="javascript:;">+</a>
 							</h4>
 						</div>
 						<div class="info">
@@ -165,312 +175,249 @@
 				<h2>
 					<img src="images/sec_title_09.png" alt="魔龙猎手"/>
 				</h2>
-				<ul  class="xq">
-					<li class="per">
-						<!--人物技能-->
-						<div class="skills">
-							<h3>
-								<span>
-									<img src="images/sec_row1_17.png" alt="魔龙猎手"/>
-								</span>
-								<em>
-									影舞者
-								</em>
-								<i>
-									<img src="images/sec_row2_17.png" alt="魔龙猎手" />	
-								</i>
-							</h3>
-							<div class="info">
-								影舞者拥有妩媚的声线和华丽的外貌，主要使用弓箭在远距离攻击敌人，擅长淬毒，嗜血，穿刺，可以附加团队增益，具有强大的输出能力，千里之外取敌首级，是pk 的绝好选择。
+				<div class="content swiper-container">
+					<ul  class="xq swiper-wrapper">
+						<li class="per swiper-slide">
+							<!--人物技能-->
+							<div class="skills">
+								<h3>
+									<em>
+										影舞者
+									</em>
+									<i>
+										<img src="images/sec_row_07.png" alt="魔龙猎手" />	
+									</i>
+								</h3>
+								<div class="info">
+									影舞者拥有妩媚的声线和华丽的外貌，主要使用弓箭在远距离攻击敌人，擅长淬毒，嗜血，穿刺，可以附加团队增益，具有强大的输出能力，千里之外取敌首级，是pk 的绝好选择。
+								</div>
+								<!--技能-->
+								<div class="skill">
+									<ul class="skillTop">
+										<li class="on">
+											<img src="images/sec_jineng3_43.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/sec_jineng2_43.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/sec_jineng1_43.png" alt="魔龙猎手"/>
+										</li>
+									</ul>
+									<ul class="skillBot">
+										<li>
+											释放一只穿刺箭，对前方直线范围9米内的5个目标造成攻击伤害，附加无视防御伤害
+										</li>
+										<li class="hide">
+											向敌方目标释放寒冰箭，击中目标后爆炸对目标直径7米内6个目标造成伤害，附带减速效果
+										</li>
+										<li class="hide">
+											向敌方目标释放冰雨阵，对目标直径9米内7个目标造成伤害，附加无视防御伤害（觉醒后效果增强）
+										</li>
+									</ul>
+								</div>
 							</div>
-							<!--技能-->
-							<div class="skill">
-								<ul class="skillTop">
-									<li class="on">
-										<img src="images/sec_jineng3_43.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/sec_jineng2_43.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/sec_jineng1_43.png" alt="魔龙猎手"/>
-									</li>
-								</ul>
-								<ul class="skillBot">
-									<li>
-										释放一只穿刺箭，对前方直线范围9米内的5个目标造成攻击伤害，附加无视防御伤害
-									</li>
-									<li class="hide">
-										向敌方目标释放寒冰箭，击中目标后爆炸对目标直径7米内6个目标造成伤害，附带减速效果
-									</li>
-									<li class="hide">
-										向敌方目标释放冰雨阵，对目标直径9米内7个目标造成伤害，附加无视防御伤害（觉醒后效果增强）
-									</li>
-								</ul>
+							<!--角色图片-->
+							<div class="role">
+								<img src="images/sec_roll_41.png" alt="魔龙猎手"/>
 							</div>
-						</div>
-						<!--角色图片-->
-						<div class="role">
-							<img src="images/sec_roll_41.png" alt="魔龙猎手"/>
-						</div>
-					</li>
-					<li class="per hide">
-						<!--人物技能-->
-						<div class="skills">
-							<h3>
-								<span>
-									<img src="images/sec_row1_17.png" alt="魔龙猎手"/>
-								</span>
-								<em>
-									圣武者
-								</em>
-								<i>
-									<img src="images/sec_row2_17.png" alt="魔龙猎手"/>	
-								</i>
-							</h3>
-							<div class="info">
-								圣武者拥有超凡的体力和华丽的剑术，配上近距离的攻击技能，具有极其强悍的生存能力，擅长生存，恢复，野性暴怒，具有强大的近身作战能力，典型的MT职业。							</div>
-							<!--技能-->
-							<div class="skill">
-								<ul class="skillTop">
-									<li class="on">
-										<img src="images/sw_skill1.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/sw_skill2.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/sw_skill3.png" alt="魔龙猎手"/>
-									</li>
-								</ul>
-								<ul class="skillBot">
-									<li>
-										战士旋转攻击，对周围直径9米范围内7个目标每秒造成攻击伤害，附件无视防御伤害（觉醒后效果增强）
-									</li>
-									<li class="hide">
-										重击释放剑气，对前方直线范围8米内的5个目标造成攻击伤害，附加无视防御伤害
-									</li>
-									<li class="hide">
-										向前方进行冲刺，对目标造成2秒沉默并对目标直径7米内造成攻击伤害，附加无视防御伤害
-									</li>
-								</ul>
+						</li>
+						<li class="per swiper-slide">
+							<!--人物技能-->
+							<div class="skills">
+								<h3>
+									<em>
+										圣武者
+									</em>
+									<i>
+										<img src="images/sec_row_07.png" alt="魔龙猎手"/>	
+									</i>
+								</h3>
+								<div class="info">
+									圣武者拥有超凡的体力和华丽的剑术，配上近距离的攻击技能，具有极其强悍的生存能力，擅长生存，恢复，野性暴怒，具有强大的近身作战能力，典型的MT职业。							</div>
+								<!--技能-->
+								<div class="skill">
+									<ul class="skillTop">
+										<li class="on">
+											<img src="images/sw_skill1.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/sw_skill2.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/sw_skill3.png" alt="魔龙猎手"/>
+										</li>
+									</ul>
+									<ul class="skillBot">
+										<li>
+											战士旋转攻击，对周围直径9米范围内7个目标每秒造成攻击伤害，附件无视防御伤害（觉醒后效果增强）
+										</li>
+										<li class="hide">
+											重击释放剑气，对前方直线范围8米内的5个目标造成攻击伤害，附加无视防御伤害
+										</li>
+										<li class="hide">
+											向前方进行冲刺，对目标造成2秒沉默并对目标直径7米内造成攻击伤害，附加无视防御伤害
+										</li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<!--角色图片-->
-						<div class="role">
-							<img src="images/sec_roll2.png" alt="魔龙猎手"/>
-						</div>
-					</li>
-					<li class="per hide">
-						<!--人物技能-->
-						<div class="skills">
-							<h3>
-								<span>
-									<img src="images/sec_row1_17.png" alt="魔龙猎手"/>
-								</span>
-								<em>
-									秘法师
-								</em>
-								<i>
-									<img src="images/sec_row2_17.png" alt="魔龙猎手" />	
-								</i>
-							</h3>
-							<div class="info">
-								秘法师是技巧型的战斗大师，考验玩家的操控能力和格斗技术。配合极强的群攻能力和控场技能，团战绝佳的DPS。
+							<!--角色图片-->
+							<div class="role">
+								<img src="images/sec_roll2.png" alt="魔龙猎手"/>
 							</div>
-							<!--技能-->
-							<div class="skill">
-								<ul class="skillTop">
-									<li class="on">
-										<img src="images/mf_skill1.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/mf_skill2.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/mf_skill3.png" alt="魔龙猎手"/>
-									</li>
-								</ul>
-								<ul class="skillBot">
-									<li>
-										从地面释放毒刺，对前方直线范围8米内的5个目标造成攻击伤害，附加无视防御伤害
-									</li>
-									<li class="hide">
-										对敌方目标释放一个魔法黑洞，对目标直径9米内5个目标造成伤害，附加无视防御伤害，对范围内目标产生吸引效果
-									</li>
-									<li class="hide">
-										向敌方目标释放魔阵，对目标直径9米内5个目标造成伤害，附加无视防御伤害（觉醒后效果增强）
-									</li>
-								</ul>
+						</li>
+						<li class="per swiper-slide">
+							<!--人物技能-->
+							<div class="skills">
+								<h3>
+									<em>
+										秘法师
+									</em>
+									<i>
+										<img src="images/sec_row_07.png" alt="魔龙猎手" />	
+									</i>
+								</h3>
+								<div class="info">
+									秘法师是技巧型的战斗大师，考验玩家的操控能力和格斗技术。配合极强的群攻能力和控场技能，团战绝佳的DPS。
+								</div>
+								<!--技能-->
+								<div class="skill">
+									<ul class="skillTop">
+										<li class="on">
+											<img src="images/mf_skill1.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/mf_skill2.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/mf_skill3.png" alt="魔龙猎手"/>
+										</li>
+									</ul>
+									<ul class="skillBot">
+										<li>
+											从地面释放毒刺，对前方直线范围8米内的5个目标造成攻击伤害，附加无视防御伤害
+										</li>
+										<li class="hide">
+											对敌方目标释放一个魔法黑洞，对目标直径9米内5个目标造成伤害，附加无视防御伤害，对范围内目标产生吸引效果
+										</li>
+										<li class="hide">
+											向敌方目标释放魔阵，对目标直径9米内5个目标造成伤害，附加无视防御伤害（觉醒后效果增强）
+										</li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<!--角色图片-->
-						<div class="role">
-							<img src="images/sec_roll3.png" alt="魔龙猎手"/>
-						</div>
-					</li>
-					<li class="per hide">
-						<!--人物技能-->
-						<div class="skills">
-							<h3>
-								<span>
-									<img src="images/sec_row1_17.png" alt="魔龙猎手"/>
-								</span>
-								<em>
-									奥术师
-								</em>
-								<i>
-									<img src="images/sec_row2_17.png"  alt="魔龙猎手" />	
-								</i>
-							</h3>
-							<div class="info">
-								呆萌可爱的远程法师，就是奥术师的外表，攻守平衡简单方便还天生可以控制干扰，适合休闲玩家享受游戏的乐趣，同时又是国战跨服不可缺少的角色。
+							<!--角色图片-->
+							<div class="role">
+								<img src="images/sec_roll3.png" alt="魔龙猎手"/>
 							</div>
-							<!--技能-->
-							<div class="skill">
-								<ul class="skillTop">
-									<li class="on">
-										<img src="images/as_skill1.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/as_skill2.png" alt="魔龙猎手"/>
-									</li>
-									<li>
-										<img src="images/as_skill3.png" alt="魔龙猎手"/>
-									</li>
-								</ul>
-								<ul class="skillBot">
-									<li>
-										释放火焰屏障，对前方扇形区域9米内6个目标造成伤害，附加无视防御伤害
-									</li>
-									<li class="hide">
-										提高自身移动速度，并形成直径11米七郎对范围内6个目标造成伤害，附带击退效果
-									</li>
-									<li class="hide">
-										释放出一只火鸟对前方直线范围9米内5个目标造成攻击伤害，附加无视防御伤害
-									</li>
-								</ul>
+						</li>
+						<li class="per swiper-slide">
+							<!--人物技能-->
+							<div class="skills">
+								<h3>
+									<em>
+										奥术师
+									</em>
+									<i>
+										<img src="images/sec_row_07.png"  alt="魔龙猎手" />	
+									</i>
+								</h3>
+								<div class="info">
+									呆萌可爱的远程法师，就是奥术师的外表，攻守平衡简单方便还天生可以控制干扰，适合休闲玩家享受游戏的乐趣，同时又是国战跨服不可缺少的角色。
+								</div>
+								<!--技能-->
+								<div class="skill">
+									<ul class="skillTop">
+										<li class="on">
+											<img src="images/as_skill1.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/as_skill2.png" alt="魔龙猎手"/>
+										</li>
+										<li>
+											<img src="images/as_skill3.png" alt="魔龙猎手"/>
+										</li>
+									</ul>
+									<ul class="skillBot">
+										<li>
+											释放火焰屏障，对前方扇形区域9米内6个目标造成伤害，附加无视防御伤害
+										</li>
+										<li class="hide">
+											提高自身移动速度，并形成直径11米七郎对范围内6个目标造成伤害，附带击退效果
+										</li>
+										<li class="hide">
+											释放出一只火鸟对前方直线范围9米内5个目标造成攻击伤害，附加无视防御伤害
+										</li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<!--角色图片-->
-						<div class="role">
-							<img src="images/sec_roll4.png" alt="魔龙猎手"/>
-						</div>
-					</li>
-				</ul>
+							<!--角色图片-->
+							<div class="role">
+								<img src="images/sec_roll4.png" alt="魔龙猎手"/>
+							</div>
+						</li>
+					</ul>
+					<div class="swiper-pagination roles"></div>
+				</div>
+				
 				<!--左右切换按钮-->
-				<div class="btns">
+				<!--<div class="btns">
 					<div class="btnPrev btn">
 						<img src="images/sec_rowleft_03.png" alt="魔龙猎手" />
 					</div>
 					<div class="btnNext btn">
 						<img src="images/sec_rowright_03.png" alt="魔龙猎手" />
 					</div>
-				</div>
+				</div>-->
 				<!--四个职业-->
-				<ul class="career">
+				<!--<ul class="career">
 					<li class="purple"></li>
 					<li class="red"></li>
 					<li class="green"></li>
 					<li class="orange"></li>
-				</ul>
+				</ul>-->
 			</div>
 		</div>
 		<!--游戏特色-->
-		<div class="game">
+		<div class="game" id="game">
 			<div class="box">
 				<h2>
-					<img src="images/thr_title_09.png" alt="魔龙猎手"/>
+					<img src="images/thr_title_11.png" alt="魔龙猎手"/>
 				</h2>
-				<ul class="games clearfix">
-					<li class="l">
-						<h3 class="hide">
-							<em>
-								<img src="images/thr_roll1_56.png" alt="魔龙猎手"/>
-							</em>
-						</h3>
-						<h4>
-							<span>
-								<img src="images/thr_pic1_56.png" alt="魔龙猎手" />
-							</span>
-							<i>
-								<img src="images/thr_chufa1_03.png" alt="魔龙猎手"/>
-							</i>
-						</h4>
-					</li>
-					<li class="l">
-						<h3>
-							<em>
-								<img src="images/thr_roll2_56.png" alt="魔龙猎手"/>
-							</em>
-						</h3>
-						<h4 class="hide">
-							<span>
-								<img src="images/thr_pic2_56.png" alt="魔龙猎手" />
-							</span>
-							<i>
-								<img src="images/thr_chufa2_03.png" alt="魔龙猎手"/>
-							</i>
-						</h4>
-					</li>
-					<li class="l">
-						<h3>
-							<em>
-								<img src="images/thr_roll3_56.png" alt="魔龙猎手"/>
-							</em>
-						</h3>
-						<h4 class="hide">
-							<span>
-								<img src="images/thr_pic3_56.png" alt="魔龙猎手" />
-							</span>
-							<i>
-								<img src="images/thr_chufa3_03.png" alt="魔龙猎手"/>
-							</i>
-						</h4>
-					</li>
-					<li class="l">
-						<h3>
-							<em>
-								<img src="images/thr_roll4_56.png" alt="魔龙猎手"/>
-							</em>
-						</h3>
-						<h4 class="hide">
-							<span>
-								<img src="images/thr_pic4_56.png" alt="魔龙猎手" />
-							</span>
-							<i>
-								<img src="images/thr_chufa4_03.png" alt="魔龙猎手"/>
-							</i>
-						</h4>
-					</li>
-				</ul>
+				<div class="gameCharac">
+					<div class="swiper-container charac">
+				      	<div class="swiper-wrapper">
+					        <div class="swiper-slide">
+					        	<a href="javascript:;"><img src="images/thr_pic1_56.png" alt="魔龙猎手"> </a>
+					        </div>
+					        <div class="swiper-slide"> 
+					        	<a href="javascript:;"><img src="images/thr_pic2_56.png" alt="魔龙猎手"> </a>
+					        </div>	
+					        <div class="swiper-slide"> 
+					        	<a href="javascript:;"><img src="images/thr_pic3_56.png" alt="魔龙猎手"> </a>
+					        </div>	
+					        <div class="swiper-slide"> 
+					        	<a href="javascript:;"><img src="images/thr_pic4_56.png" alt="魔龙猎手"> </a>
+					        </div>
+					    </div>
+				    </div>
+			    	<div class="pagination characPage">
+			    	</div>
+				</div>
 			</div>
 		</div>
 		<!--底部相同区域-->
 		<div class="footer">
 			<div class="box">
-				<h2 class="">
-					<a href="http://www.xipu.com/"><img src="images/xipu.png" alt="魔龙猎手" /></a>
-				</h2>
-				<p class="">  
-					<a href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank">沪ICP备16001960号</a>400-087-2221
-					
-			    </p>
 			    <p>
-			    	Copyright © <span id="copywrite">2017</span>All Rights Reserved.
-			    </p>
-			    <p>
-			    	本网站仅限18岁（含18岁）以上玩家娱乐， 未满18岁不能通过本站注册认证！<a href="http://www.xipu.com/family/protect" target="_blank">家长监护</a>
-			    </p>
-			    <p>
-			    	 <a href="http://www.xipu.com/family/punishment" target="_blank">违规处罚条款</a>
-			健康游戏公告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活<br>
+			    	沪ICP备16001960号 COPYRIGHT © 2017 <br />
+					ALL RIGHTS RESERVED
 			    </p>
 			</div>			
 		</div>
 	</body>
 	<script src="js/plugins/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/plugins/idangerous.swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/plugins/swiper.jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/plugins/rem.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 </html>
