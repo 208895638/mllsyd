@@ -150,7 +150,7 @@ body, html {
     width: 3.65rem;
     height: 1.5rem;
     margin: 0 auto;
-    padding-top: 6.31rem;
+    padding-top: 6.51rem;
     padding-left: 1.97rem; }
     .mBanner .downloads .infoTop .ico {
       margin-right: 38px; }
@@ -338,7 +338,9 @@ body, html {
         position: relative; }
         .introduce .box .xq .per .skills {
           width: 3.58rem;
-          height: 4.8rem; }
+          height: 4.8rem;
+          position: relative;
+          z-index: 10; }
           .introduce .box .xq .per .skills h3 {
             width: 3.66rem;
             height: 0.59rem;
@@ -396,7 +398,8 @@ body, html {
           top: 0;
           height: 4.8rem;
           width: 3.2rem;
-          overflow: hidden; }
+          overflow: hidden;
+          z-index: 9; }
           .introduce .box .xq .per .role img {
             height: 90%; }
     .introduce .box .btns .btn {
@@ -766,3 +769,24 @@ body, html {
   margin: 0 0.04rem;
   color: #fff;
   font-size: 0.16rem; }
+
+.go-back {
+  width: 0.8rem;
+  height: 1.1rem;
+  border: 1px solid #999;
+  position: fixed;
+  background: #000;
+  bottom: .5rem;
+  right: .4rem;
+  z-index: 122; }
+  .go-back span {
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%) rotate(45deg);
+    transform-origin: center center; }
